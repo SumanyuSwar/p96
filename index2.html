@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kwitter</title>
+        <meta charset="utf-8">
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body onload="loadUser()">
+
+        <button class="btn btn-success" style="float:right;border-radius: 25px;color:white;" onclick="logout()">Logout</button>
+        <p style="font-size: 20px;" id="user2_name"></p> 
+        <input class="form-control" type="text" id="room_name" placeholder="Room Id" style="border-radius: 100px; background-color: rgba(0, 0, 0, 0); height:50px;width:75%;margin:35px auto;color:white;background-color: rgba(0, 0, 0, 0.5)">
+        <button class="btn btn-success" style="margin:8px auto; width:20%" onclick="Add()">Add</button>
+        <div id="rooms" style="width:90%; height:400px;border-radius: 25px; background-color: rgba(0, 0, 0, 0.5);margin:35px auto;color:white;"></div>
+        <script src="main.js"></script>
+    </body>
+</html>

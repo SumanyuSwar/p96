@@ -1,0 +1,19 @@
+#login{
+    background-color: rgba(0, 0, 0, 0.500);
+    height:400px;
+    width:400px;
+    margin: 8px auto;
+    color:white;
+    border-radius: 30px;
+    margin-top:150px;
+    font-size: 30px;
+    padding:30px;
+}
+body{
+    background-image: url("login-bg.png");
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}

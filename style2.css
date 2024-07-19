@@ -1,0 +1,10 @@
+body{
+    color:white;
+    text-align: center;
+    background-image: url("login-bg.png");
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin:0px;
+}
